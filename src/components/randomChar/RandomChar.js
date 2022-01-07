@@ -12,7 +12,7 @@ const RandomChar = () => {
 
     useEffect(() => {
         updateChar();
-        const timerId = setInterval(updateChar, 30000);
+        const timerId = setInterval(updateChar, 300000);
 
         return () => {
             clearInterval(timerId)
